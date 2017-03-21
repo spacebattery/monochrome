@@ -1,26 +1,6 @@
-# Attila
+# Monochrome
 
-A content focused responsive theme for [Ghost](http://github.com/tryghost/ghost/).
-
-## Demo
-
-* [Blog](http://attila.zutrinken.com/)
-* [Post](http://attila.zutrinken.com/demo/)
-* [Tag Archive](http://attila.zutrinken.com/tag/general/)
-* [Author Archive](http://attila.zutrinken.com/author/zutrinken/)
-
-## Screenshots
-
-<table>
-<tr>
-<td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-desktop.jpg" />
-</td>
-<td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-mobile.jpg" />
-</td>
-</tr>
-</table>
+A ghost theme forked from the [attila](https://github.com/zutrinken/attila) theme.
 
 ## Features
 
@@ -41,14 +21,10 @@ To enable [Disqus](https://disqus.com/) comments go to your blogs code injection
 
 ## Development
 
-Install [Grunt](http://gruntjs.com/getting-started/):
+Install dependencies
 
-	npm install -g grunt-cli
+    yarn install
 
-Install Grunt dependencies:
+Building
 
-	npm install
-
-Build Grunt project:
-
-	grunt build
+    npm run build
