@@ -14,7 +14,7 @@
 		"url": "https://github.com/zaromev/monochrome.git"
 	},
   "author": "Zaro Megagenta <zaro.megagenta@gmail.com> (https://github.com/zaromev)",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zaromev/monochrome/issues"
   },
