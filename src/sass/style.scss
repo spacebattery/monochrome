@@ -966,12 +966,21 @@ img {
 	height: auto;
 }
 .post-share .twitter {
+	background-color: $primary-color;
+}
+.post-share .twitter:hover {
 	background-color: $color-social-twitter;
 }
 .post-share .facebook {
+	background-color: $primary-color;
+}
+.post-share .facebook:hover {
 	background-color: $color-social-facebook;
 }
 .post-share .googleplus {
+	background-color: $primary-color;
+}
+.post-share .googleplus:hover {
 	background-color: $color-social-googleplus;
 }
 .post-tags {
@@ -984,13 +993,13 @@ img {
 	margin: 0 0.334em 0.667em 0;
 	padding: 0.575em 1em;
 	background: $color-white;
-	border: 1px solid $primary-color;
+	border: 1px solid $color-gray-80;
 	font-size: 0.75em;
 	font-weight: 500;
 	line-height: 1.334em;
 	text-align: center;
 	text-decoration: none;
-	color: $primary-color;
+	color: $color-gray-80;
 	border-radius: 2em;
 	transition: all ease 0.3s;
 	box-sizing: border-box;
