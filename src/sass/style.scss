@@ -926,6 +926,14 @@ img {
 	margin-left: -5%;
 }
 
+.loop-cover {
+  filter: grayscale(100%) blur(3px);
+}
+.loop-cover.appear {
+  filter: grayscale(0%) blur(0);
+	transition: filter ease 1s;
+}
+
 
 /* ==========================================================================
    Post Info

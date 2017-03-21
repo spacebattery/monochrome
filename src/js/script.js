@@ -137,4 +137,15 @@ jQuery(function($) {
 			$(this).parent().addClass('activated');
 		});
 	}
+
+	/* ==========================================================================
+     Loop cover appear
+	   ========================================================================== */
+  $('.loop-cover').appear();
+  $('.loop-cover').on('appear', function(event, elements) {
+    $(elements).addClass('appear');
+  });
+  $('.loop-cover').on('disappear', function(event, elements) {
+    $(elements).removeClass('appear');
+  });
 });
